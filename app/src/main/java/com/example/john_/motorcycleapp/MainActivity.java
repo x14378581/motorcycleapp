@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         showLocation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),Location.class);
+                Intent intent = new Intent(getApplicationContext(),Location2.class);
                 startActivity(intent);
             }
         });

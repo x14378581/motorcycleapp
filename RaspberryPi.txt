@@ -1,0 +1,3 @@
+raspistill -o image.jpg -for grabbing image using camera
+
+raspivid -o video.mp4 -t 10000 -for grabbing a 10 second video
